@@ -1,9 +1,9 @@
 <template>
   <div class="count-down">
     <p v-if="!nextPrayer.name">Assalamualaikum</p>
-    <p v-else-if="isIn">Sudah masuk waktu {{ currentPrayer }}</p>
+    <p v-else-if="isIn">Sekarang telah masuk waktu {{ currentPrayer }}</p>
     <p v-else>
-      <span :class="{ active: isActive }">{{ time }}</span> lagi kn masuk waktu
+      <span :class="{ active: isActive }">{{ time }}</span> untuk masuk waktu
       <span :class="{ active: isActive }">{{ nextPrayer.name }}</span>
     </p>
   </div>
