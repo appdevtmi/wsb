@@ -23,5 +23,6 @@ export default {
   left: 0;
   color: grey;
   font-size: 12px;
+  display: none;
 }
 </style>
